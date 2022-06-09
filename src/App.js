@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import { GeneralInfo } from "./components/general-info";
+import "./styles/app.css";
 
 export class App extends Component {
   constructor() {
