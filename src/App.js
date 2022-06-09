@@ -8,7 +8,10 @@ export class App extends Component {
 
   render() {
     return (
-      <GeneralInfo/>
+      <div className="container">
+          <h1>CV Application</h1>
+          <GeneralInfo/>
+      </div>
     )
   }
 }
