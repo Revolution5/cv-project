@@ -2,10 +2,6 @@ import React, {Component} from "react";
 import "../styles/general-info.css";
 
 export class GeneralInfo extends Component {
-    constructor() {
-        super()
-    }
-
     render() {
         return (
             <form>

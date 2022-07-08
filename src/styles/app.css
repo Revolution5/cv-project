@@ -1,0 +1,12 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 20px;
+    margin-left: 5vw;
+}

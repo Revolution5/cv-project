@@ -18,7 +18,7 @@ export class Practical extends Component {
               </div>
               <div className="input">
                     <label>End Date</label>
-                    <input type="date"></input>
+                    <input type="text"></input>
               </div>
           </form>
         )

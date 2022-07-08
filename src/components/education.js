@@ -1,10 +1,6 @@
 import React, {Component} from "react";
 
 export class Education extends Component {
-    constructor() {
-        super()
-    }
-
     render() {
         return (
            <form>
