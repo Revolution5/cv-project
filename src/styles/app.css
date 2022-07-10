@@ -10,3 +10,9 @@
     gap: 20px;
     margin-left: 5vw;
 }
+
+.right-side {
+    grid-column: 2/2;
+    grid-row: 1/1;
+    
+}

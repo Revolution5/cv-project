@@ -34,8 +34,8 @@ export class App extends Component {
   render() {
     return (
       <div className="container">
-        
           <div className="left-side">
+            
             <h1>CV Application</h1>
             <h2>General Information</h2>
             <GeneralInfo/>
@@ -47,11 +47,8 @@ export class App extends Component {
             <h2>Practical Experience</h2>
             {this.state.practicalSections}
             <button onClick={this.addPractical}>Add</button>
-
-            <button type="submit">Preview</button>
           </div>
-        
-        <Preview/>
+          <Preview/>
       </div>
     )
   }

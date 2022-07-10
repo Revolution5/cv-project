@@ -3,7 +3,7 @@ import React, {Component} from "react";
 export class Practical extends Component {
     render() {
         return (
-          <form>
+          <div>
               <div className="input">
                   <label>Company Name</label>
                   <input type="text"></input>
@@ -20,7 +20,7 @@ export class Practical extends Component {
                     <label>End Date</label>
                     <input type="text"></input>
               </div>
-          </form>
+          </div>
         )
     }
 }

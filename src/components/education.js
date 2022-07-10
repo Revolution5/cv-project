@@ -3,7 +3,7 @@ import React, {Component} from "react";
 export class Education extends Component {
     render() {
         return (
-           <form>
+           <div>
                <div className="input">
                    <label>School Name</label>
                    <input id="school-name" type="text"></input>
@@ -16,7 +16,7 @@ export class Education extends Component {
                     <label>Graduation Date</label>
                     <input id="grad-date" type="date"></input>
                </div>
-           </form> 
+           </div> 
         )
     }
 }
